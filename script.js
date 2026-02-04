@@ -2,7 +2,7 @@ function openLetter() {
   const env = document.querySelector(".envelope");
   env.classList.toggle("open");
 
-  const text = `My dear Saad,
+  const text = `Dear Saad,
 
 I made this little website just for you, because you mean so much to me.
 You make me feel safe, happy, and understood in ways I never thought possible.
@@ -26,3 +26,4 @@ Aleema ♡`;
   }
   typeWriter();
 }
+
